@@ -19,7 +19,7 @@
     "require" : {
         "php" : "^8.2",
         "illuminate/support" : "^8.0 || ^9.0 || ^10.0 || ^11.0",
-        "forxer/gravatar": "dev-master"
+        "hpsweb/gravatar" : "^4.0"
     },
     "autoload" : {
         "psr-4" : {
@@ -39,11 +39,5 @@
                 "Gravatar": "LaravelGravatar\\Facades\\Gravatar"
             }
         }
-    },
-    "repositories": [
-        {
-            "url": "https://github.com/OoHerbethoO/gravatar.git",
-            "type": "git"
-        }
-    ]
+    }
 }
